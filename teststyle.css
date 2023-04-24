@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: inline-table; 
+  /* justify-content: center; */
+  background-color: #ffffff;
+}
+
+.cardt {
+  border-radius: 10px;
+  width: 1000px;
+  user-select: none;
+  height: 220px;
+  display: inline-table; 
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);  
+  padding:10px;
+  margin:10px;
+}
+
+.cardt .cardt_header 
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.cardt .cardt_header h1 {
+  font-size: 22px;
+  color: #0a253f;
+}
+
+.cardt .cardt_header p {
+  font-size: 16px;
+  padding: 10px 20px 0 0;
+  color: #4a4970;
+}
+
+.cardt .content-image .fa {
+  padding: 7px 10px;
+  font-size: 25px;
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: #025aa5;
+}
+
+.cardt_info {
+    color: #0a253f;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+   
+}
+
+.cardt_info p{
+    margin:15px 10px;
+}
+.cardt_info span{
+    color: #4a4970;
+    margin-right: 10px;
+}
+
+.cardt .cardt_footer{
+    padding: 10px 20px;
+    align-items: center;
+    background-color: #F0F4F7;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid #025aa5;
+
+}
+
+.cardt .cardt_footer .btn{
+    width: 100px;
+    font-size: 16px;
+    height: 30px;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #025aa5;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cardt_footer button span{
+    margin-left: 10px;
+}
